@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel & Restaurant</title>
+    <link rel="stylesheet" href="vendor/bootstrap-4.6.1-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="vendor/slick-1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet" href="vendor/slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="vendor/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      object-fit: cover;
+    }
+    </style>
+</head>
+<body>
+    <!-- navbar start -->
+    <header class="container-fluid">
+        <div class="row">
+                    <div class="col-12 p-0">
+                      <nav class="site-nav">
+                        <div class="logo">
+                            <h2 class="">Zetta Hotel</h2>
+                        </div>
+                        <ul class="nav-links m-0">
+                            <li>
+                                <a class="nav-link" href="#home">Home</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="rooms.html">Rooms</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="restaurant.html">Restaurant</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="#about">AboutUs</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="#blog">Blog</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                        <div class="burger mr-2">
+                            <div class="line1"></div>
+                            <div class="line2"></div>
+                            <div class="line3"></div>
+                        </div>
+                    </nav>
+                </div>
+        </div>
+    </header>
+    <!-- navbar end -->
+
+    <!-- home  -->
+    <section id="home" class=" home container-fluid">
+        <div class="row  min-vh-100 d-flex align-items-lg-end align-items-center">
+            <div class="container mt-5">
+                <div class="row mt-5" style="margin-bottom: 150px;">
+                    <div class="col-lg-6 col-12">
+                        <div class="home-inner-text">
+                            <h1 class="text-white">The best hotel</h1>
+                            <h1 class="text-white"> you will ever need</h1>
+                            <p class="text-white m-0 mt-3">
+                                Lorem ipsum dolor sit amet,
+                                 consectetur adipiscing elit, sed do eiusmod tempor
+                                  incididunt ut labore et dolore magna aliqua. Ut enim.... 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- form -->
+                <div class="row">
+                    <div class="col-12">
+                        <div class="">
+                            <form style="" class="bg-white shadow-lg">
+                                <div class="form-row">
+                                  <div class="col-md-4">
+                                    <label  class="text-primar">Check In Date</label>
+                                    <input type="date" class="form-control" placeholder="check in date"  required>
+                                  </div>
+                                  <div class="col-md-4">
+                                    <label>Check Out Date</label>
+                                    <input type="date" class="form-control" placeholder="check out date" required>
+                                  </div>
+                                  <div class="col-md-4">
+                                      <label>Rooms</label>
+                                      <input type="text" class="form-control" placeholder="rooms" required>
+                                  </div>
+                                </div>
+                                <button class="btn btn-primary mt-2" type="submit">Submit form</button>
+                              </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- about 1 -->
+    <section id="about" class="container-fluid">
+        <div class="row min-vh-100 d-flex align-items-center">
+            <div class="container">
+                <div class="row flex-column-reverse flex-md-row mt-5">
+                    <div class="col-md-6 col-12 mt-md-0 mt-5" style="height:355px">
+                        <div class="">
+                            <p class="text-primary text-uppercase font-weight-bolder m-0">About us</p>
+                            <h1 style="width: 341px;">Trust and quality</h1>
+                            <h1>are our atuus</h1>
+                            <p class="text-black-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                 sed do eiusmod tempor incididunt ut labore et dolore magna
+                                  aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                             </p>
+
+                            <p class="text-black-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                 sed do eiusmod tempor incididunt ut labore et dolore magna
+                                  aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                             </p>
+
+                             <button style="height: 50px; width: 180px;" class="btn btn-primary"><span class="mr-3">read more</span> <i class="fa fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-12 d-flex align-items-center">
+                       <div class="">
+                        <div class="row">
+                            <div class="col-6 ">
+                                <div class="">
+                                    <img class="img-fluid" src="img/customer2.webp" alt="">
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="">
+                                    <img class="img-fluid" src="img/girl-in-pool.webp" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-12">
+                                <div class="">
+                                    <img class="w-100" src="img/living-room.webp" alt="">
+                                </div>
+                            </div>
+                        </div>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about 2 -->
+    <section id="about2" class="about2 container-fluid">
+        <div class="row d-flex align-items-center" style="min-height: 75vh;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="">
+                            <p class="text-primary font-weight-bolder text-uppercase">about us</p>
+                            <h1 class="text-white">We bring you the</h1>
+                            <h1 class="text-white">finest details</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 ">
+                    <div class=" slide my-5 text-center">
+                          <div class="about2-slick text-center  mr-md-2 mr-1" style="background: white;">
+                                <img class="d-inline mb-3" src="contents/hotel.svg" alt="">
+                                <h5>Free Wifi</h5>
+                                <h5>to stay connected</h5>
+                                <p class="text-black-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut </p>
+                          </div>
+                          <div class="about2-slick text-center  mr-md-2 mr-1" style="background: white;">
+                            <img class="d-inline mb-3" src="contents/hotel.svg" alt="">
+                            <h5>Free Wifi</h5>
+                            <h5>to stay connected</h5>
+                            <p class="text-black-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut </p>
+                          </div>
+                          <div class="about2-slick text-center  mr-md-2 mr-1" style="background: white;">
+                            <img class="d-inline mb-3" src="contents/hotel.svg" alt="">
+                            <h5>Free Wifi</h5>
+                            <h5>to stay connected</h5>
+                            <p class="text-black-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut </p>
+                          </div>
+                          <div class="about2-slick text-center  mr-md-2 mr-1" style="background: white;">
+                            <img class="d-inline mb-3" src="contents/hotel.svg" alt="">
+                            <h5>Free Wifi</h5>
+                            <h5>to stay connected</h5>
+                            <p class="text-black-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut </p>
+                          </div>
+                          <div class="about2-slick text-center  mr-md-2 mr-1" style="background: white;">
+                            <img class="d-inline mb-3" src="contents/hotel.svg" alt="">
+                            <h5>Free Wifi</h5>
+                            <h5>to stay connected</h5>
+                            <p class="text-black-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut </p>
+                          </div>
+                     </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials container-fluid ">
+        <div style="min-height: 120vh;" class="row d-flex align-items-center">
+            <div class="container">
+                <div class="row flex-column-reverse flex-md-row">
+                    <div class="col-md-6 col-12 mt-5">
+                        <div class="testimonials-lable">
+                            <p class="text-uppercase text-primary font-weight-bolder">Testimonials</p>
+                            <h1>We trust our customers</h1>
+                            <h1>and they trust us too</h1>
+                            <div class="customers">
+                                <div class="mt-lg-5 mt-3 ">
+                                    <img class="mb-lg-4 mb-2 d-inline" src="contents/marius-ciocirlan-vMV6r4VRhJ8-unsplash.png" alt="">
+                                    <div class="ml-lg-2 mb-3 mb-lg-0 d-inline-block">
+                                        <h5 class="m-0">John Doe</h5>
+                                        <p class="m-0 text-black-50">IT Engineer</p>
+                                    </div>
+                                    <p class="text-justify">I'm very glad I had the opportunity to visit this hotel.
+                                         The stuff is very friendly and I will definetly visit
+                                          the hotel again next year.</p>
+                                </div>
+                                <div class="mt-lg-5 mt-3 ">
+                                    <img class="mb-lg-4 mb-2 d-inline" src="contents/marius-ciocirlan-vMV6r4VRhJ8-unsplash.png" alt="">
+                                    <div class="ml-lg-2 mb-3 mb-lg-0 d-inline-block">
+                                        <h5 class="m-0">John Doe</h5>
+                                        <p class="m-0 text-black-50">IT Engineer</p>
+                                    </div>
+                                    <p class="text-justify">I'm very glad I had the opportunity to visit this hotel.
+                                         The stuff is very friendly and I will definetly visit
+                                          the hotel again next year.</p>
+                                </div>
+                                <div class="mt-lg-5 mt-3 ">
+                                    <img class="mb-lg-4 mb-2 d-inline" src="contents/marius-ciocirlan-vMV6r4VRhJ8-unsplash.png" alt="">
+                                    <div class="ml-lg-2 mb-3 mb-lg-0 d-inline-block">
+                                        <h5 class="m-0">John Doe</h5>
+                                        <p class="m-0 text-black-50">IT Engineer</p>
+                                    </div>
+                                    <p class="text-justify">I'm very glad I had the opportunity to visit this hotel.
+                                         The stuff is very friendly and I will definetly visit
+                                          the hotel again next year.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-12 mt-5 d-flex align-items-center">
+                        <div class="">
+                            <img class="w-100" src="img/customer.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Restaurant -->
+
+    <section id="restaurant" class="restaurant container-fluid">
+        <div class="row min-vh-100 ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 mb-5">
+                        <div class="">
+                            <p class="text-primary text-uppercase font-weight-bolder">Restaurant</p>
+                            <h1 class="font-weight-bolder">Explore our menu</h1>
+                            <h1 class="font-weight-bolder">and eat what you want</h1>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row no-gutters">
+                              <div class="col-lg-4 col-12 card-image">
+                                <img id="card-img1" class="img-fluid " src="img/food1.webp" >
+                                <img id="card-img2" class="img-fluid " src="img/food1formobile.webp" >
+                              </div>
+                              <div class="col-lg-8 col-12">
+                                <div class="card-body restaurant-card-body">
+                                  <h5 class="card-title text-primary ">Food</h5>
+                                  <p class="font-weight-bolder">Fresh fish and onions</p>
+                                  <p class="card-text m-0 text-black-50">This is a wider card with supporting text below as a natural </p>
+                                  <a href="#" class="btn btn-primary"><i class="fa fa-arrow-right"></i></a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row no-gutters">
+                              <div class="col-lg-4 col-12 card-image">
+                                <img id="card-img1" class="img-fluid " src="img/food2.webp" >
+                                <img id="card-img2" class="img-fluid " src="img/food2formobile.webp" >
+                              </div>
+                              <div class="col-lg-8 col-12">
+                                <div class="card-body restaurant-card-body">
+                                  <h5 class="card-title text-primary ">Food</h5>
+                                  <p class="font-weight-bolder">Fresh fish and onions</p>
+                                  <p class="card-text m-0 text-black-50">This is a wider card with supporting text below as a natural </p>
+                                  <a href="#" class="btn btn-primary"><i class="fa fa-arrow-right"></i></a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row no-gutters">
+                              <div class="col-lg-4 col-12 card-image">
+                                <img id="card-img1" class="img-fluid " src="img/food1.webp" >
+                                <img id="card-img2" class="img-fluid " src="img/food1formobile.webp" >
+                              </div>
+                              <div class="col-lg-8 col-12">
+                                <div class="card-body restaurant-card-body">
+                                  <h5 class="card-title text-primary ">Food</h5>
+                                  <p class="font-weight-bolder">Fresh fish and onions</p>
+                                  <p class="card-text m-0 text-black-50">This is a wider card with supporting text below as a natural </p>
+                                  <a href="#" class="btn btn-primary"><i class="fa fa-arrow-right"></i></a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row no-gutters">
+                              <div class="col-lg-4 col-12 card-image">
+                                <img id="card-img1" class="img-fluid " src="img/food2.webp" >
+                                <img id="card-img2" class="img-fluid " src="img/food2formobile.webp" >
+                              </div>
+                              <div class="col-lg-8 col-12">
+                                <div class="card-body restaurant-card-body">
+                                  <h5 class="card-title text-primary ">Food</h5>
+                                  <p class="font-weight-bolder">Fresh fish and onions</p>
+                                  <p class="card-text m-0 text-black-50">This is a wider card with supporting text below as a natural </p>
+                                  <a href="#" class="btn btn-primary"><i class="fa fa-arrow-right"></i></a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog -->
+
+    <section id="blog" class="blog container-fluid mt-5">
+        <div class="row min-vh-100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="">
+                            <p class="text-primary text-uppercase font-weight-bolder">blog</p>
+                            <h1 class="font-weight-bolder">Read our newest blog</h1>
+                            <h1 class="font-weight-bolder">post right away</h1>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 mt-5">
+                        <div class="card" >
+                            <img src="img/blog1.webp" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <p class="text-primary text-uppercase font-weight-bolder">food & life</p>
+                                <h5>Succed in hotel business</h5>
+                              <p class="text-black-50">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 mt-5">
+                        <div class="card" >
+                            <img src="img/blog2.webp" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <p class="text-primary text-uppercase font-weight-bolder">cooking</p>
+                                <h5>Cooking delicious food</h5>
+                              <p class="text-black-50">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 mt-5">
+                        <div class="card" >
+                            <img src="img/blog3.webp" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <p class="text-primary text-uppercase font-weight-bolder">Fruits</p>
+                                <h5>Getting fresh fruits</h5>
+                              <p class="text-black-50">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 mt-5">
+                        <div class="card" >
+                            <img src="img/blog3.webp" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <p class="text-primary text-uppercase font-weight-bolder">fruits</p>
+                                <h5>Getting fresh fruits</h5>
+                              <p class="text-black-50">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 mt-5">
+                        <div class="card" >
+                            <img src="img/blog1.webp" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <p class="text-primary text-uppercase font-weight-bolder">food & life</p>
+                                <h5>Succed in hotel business</h5>
+                              <p class="text-black-50">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 mt-5">
+                        <div class="card" >
+                            <img src="img/blog2.webp" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <p class="text-primary text-uppercase font-weight-bolder">cooking</p>
+                                <h5>Cooking delicious food</h5>
+                              <p class="text-black-50">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- photos -->
+    
+    <section class="photo container-fluid">
+        <div class="row min-vh-100 d-flex align-items-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 mb-5">
+                        <div class="">
+                            <p class="text-primary text-uppercase font-weight-bolder m-0">photos</p>
+                            <h1 class="font-weight-bolder">See our latest photos</h1>
+                            <h1 class="font-weight-bolder">from restaurant and hotel</h1>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                              <div class="swiper-slide">
+                                <img class="img-fluid" src="img/latest-photo.webp" alt="">
+                              </div>
+                              <div class="swiper-slide">
+                                <img class="img-fluid" src="img/latest-photo2.webp" alt="">
+                              </div>
+                              <div class="swiper-slide">
+                                <img class="img-fluid" src="img/latest-photo3.webp" alt="">
+                              </div>
+                              <div class="swiper-slide">
+                                <img class="img-fluid" src="img/latest-photo4.webp" alt="">
+                              </div>
+                              <div class="swiper-slide">
+                                <img class="img-fluid" src="img/latest-photo.webp" alt="">
+                              </div>
+                              <div class="swiper-slide">
+                                <img class="img-fluid" src="img/latest-photo2.webp" alt="">
+                              </div>
+                              <div class="swiper-slide">
+                                <img class="img-fluid" src="img/latest-photo.webp" alt="">
+                              </div>
+                              <div class="swiper-slide">
+                                <img class="img-fluid" src="img/latest-photo3.webp" alt="">
+                              </div>
+                              <div class="swiper-slide">
+                                <img class="img-fluid" src="img/latest-photo4.webp" alt="">
+                              </div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-pagination"></div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact -->
+
+    <section id="contact" class="contact container-fluid " style="background-color: #121212;">
+        <div class="row  d-flex align-items-center" style="min-height: 50vh;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 mt-lg-0 mt-5">
+                        <div class="">
+                            <h3 class="text-white mb-5 text-primary">Zetta Hotels</h3>
+                            <p style="width: 250px; text-align: justify;" class="text-white-50 mb-3">Our hotel is an image of quality and
+                               profesionalism combined with hard
+                               work and precision. You can expect 
+                               only the best services from our staff.
+                            </p>
+                            <img src="contents/001-facebook.svg" alt="">
+                            <img src="contents/002-twitter.svg" alt="">
+                            <img src="contents/004-google-plus.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 mt-lg-0 mt-5">
+                        <div class="">
+                            <h5 class="text-white">Useful links</h5>
+                            <p><a href="#blog" class="text-primary">Blog</a></p>
+                            <p><a href="#blog" class="text-primary">Rooms</a></p>
+                            <p><a href="#blog" class="text-primary">Gift-Card</a></p>
+                            <p><a href="#blog" class="text-primary">Testimonials</a></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 mt-lg-0 mt-5">
+                        <div class="">
+                            <h5 class="text-white">Privacy</h5>
+                            <p><a href="#blog" class="text-primary">Carrer</a></p>
+                            <p><a href="#blog" class="text-primary">About Us</a></p>
+                            <p><a href="#blog" class="text-primary">Contact Us</a></p>
+                            <p><a href="#blog" class="text-primary">Services</a></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mt-lg-0 mt-5">
+                        <div class="">
+                            <h5 class="text-white">Contact Info</h5>
+                            <div class="d-flex align-items-center mb-4">
+                                <i class="fas fa-envelope text-primary"></i>
+                                <p class="ml-3 text-white m-0">example@yahoo.com</p>
+                            </div>
+                            <div class="d-flex align-items-center mb-4">
+                                <i class="fas fa-phone-alt text-primary"></i>
+                                <p class="ml-3 text-white m-0">+0 320 422 4254</p>
+                            </div>
+                            <div class="d-flex align-items-center mb-4">
+                                <i class="fas fa-map-marker-alt text-primary"></i>
+                                <p class="ml-3 text-white m-0">Main Str Chicago Ilinois</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 mt-5">
+                        <div class="d-lg-flex justify-content-between text-center">
+                            <p class="text-white-50">Copyright ©2020 All rights reserved | This design is made with love by <span class="text-primary">STK</span></p>
+                            <a href="">www.blahblah.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="vendor/fontawesome-free-5.15.4-web/js/all.js"></script>
+    <script src="vendor/slick-1.8.1/slick/slick.js"></script>
+    <script src="vendor/swiper/swiper-bundle.js"></script>
+    <script src="js/app.js"></script>
+
+    <script>
+
+    </script>
+</body>
+</html>
