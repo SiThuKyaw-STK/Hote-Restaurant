@@ -58,6 +58,7 @@ form{
     background: #5863F8;
     padding: 15px;
     border-radius: 20%;
+    width: 65px;
 }
 .about2-slick{
     width: 270px !important;
@@ -144,9 +145,7 @@ form{
     border:  none !important;
 
     }
-    .site-nav .nav-link:hover{
-        border: 1px solid #5863F8;
-    }
+   
     .home-inner-text p {
         width: 350px;
     }

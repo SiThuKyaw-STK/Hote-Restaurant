@@ -151,14 +151,14 @@ spaceBetween: 40
 
 //for waypoint
 
-var waypoints = $('#home').waypoint(function(direction) {
+  var waypoints = $('#home').waypoint(function(direction) {
 
-  $('.nav-link').removeClass('current-section');
-  $('.nav-link[href="#home"]').addClass("current-section");
+    $('.nav-link').removeClass('current-section');
+    $('.nav-link[href="#home"]').addClass("current-section");
 
-  }, {
-  offset: '-1%'
-  })
+    }, {
+    offset: '-1%'
+    })
 
   var waypoints = $('#about').waypoint(function(direction) {
 
@@ -175,14 +175,22 @@ var waypoints = $('#home').waypoint(function(direction) {
   $('.nav-link[href="#blog"]').addClass("current-section");
 
   }, {
-  offset: '25%'
+  offset: '0%'
   })
 
-  var waypoints = $('rooms.html').waypoint(function(direction) {
+  // for wow
 
-  $('.nav-link').removeClass('current-section');
-  $('.nav-link[href="rooms.html"]').addClass("current-section");
-
-  }, {
-  offset: '-1%'
-  })
+  wow = new WOW(
+    {
+    boxClass:     'wow',      // default
+    animateClass: 'animate__animated', // default
+    offset:       0,          // default
+    mobile:       true,       // default
+    live:         true        // default
+  }
+  )
+  wow.init();
+  $(window).on('load', function() {
+  
+    new WOW().init();
+  });
