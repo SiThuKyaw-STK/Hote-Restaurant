@@ -7,10 +7,10 @@ $(document).ready(function(){
     $(window).scroll(function(){
       let currentPosition = $(this).scrollTop();
   
-      if(currentPosition >= screenHeight-100){
+      if(currentPosition >= screenHeight){
         $('.site-nav').addClass('site-nav-scroll');
       }else{
-        $('.site-nav').removeClass('site-nav-scroll');
+        $('.site-nav').addClass('site-nav-scroll');
   
       }
     })
