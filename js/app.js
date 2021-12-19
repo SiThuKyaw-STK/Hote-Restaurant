@@ -62,25 +62,27 @@ const navSlide = () => {
   $('.slide').slick({
     dots: true,
     infinite: true,
+    arrows:true,
     speed: 300,
-    slidesToShow: 4,
-    slidesToScroll: 4,
+    autoplay:true,
+    mobileFirst:true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
     responsive: [
-   
       {
-        breakpoint: 1200,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2
-        }
-      },
-      {
-        breakpoint: 767,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
+        breakpoint: 768,
+          settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    }
+       },
+       {
+        breakpoint: 568,
+          settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1
+                  }
+        },
       // You can unslick at a given breakpoint now by adding:
       // settings: "unslick"
       // instead of a settings object
