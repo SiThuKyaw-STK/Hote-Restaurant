@@ -61,7 +61,7 @@ const navSlide = () => {
 
   $('.slide').slick({
     dots: true,
-    infinite: false,
+    infinite: true,
     speed: 300,
     slidesToShow: 4,
     slidesToScroll: 4,
@@ -148,3 +148,41 @@ spaceBetween: 40
 }
 }
 });
+
+//for waypoint
+
+var waypoints = $('#home').waypoint(function(direction) {
+
+  $('.nav-link').removeClass('current-section');
+  $('.nav-link[href="#home"]').addClass("current-section");
+
+  }, {
+  offset: '-1%'
+  })
+
+  var waypoints = $('#about').waypoint(function(direction) {
+
+  $('.nav-link').removeClass('current-section');
+  $('.nav-link[href="#about"]').addClass("current-section");
+ 
+  }, {
+  offset: '0%'
+  })
+
+  var waypoints = $('#blog').waypoint(function(direction) {
+
+  $('.nav-link').removeClass('current-section');
+  $('.nav-link[href="#blog"]').addClass("current-section");
+
+  }, {
+  offset: '25%'
+  })
+
+  var waypoints = $('rooms.html').waypoint(function(direction) {
+
+  $('.nav-link').removeClass('current-section');
+  $('.nav-link[href="rooms.html"]').addClass("current-section");
+
+  }, {
+  offset: '-1%'
+  })
