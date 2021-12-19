@@ -94,24 +94,7 @@ const navSlide = () => {
      arrows:false,
      slidesToShow: 1,
      slidesToScroll: 1,
-     responsive: [
-                           {
-                             breakpoint: 780,
-                             settings: {
-                               slidesToShow: 1,
-                               slidesToScroll: 1
-                             }
-                           },
-                           {
-                             breakpoint: 767,
-                             settings: {
-                               slidesToShow: 1,
-                               slidesToScroll: 1
-                             }
-                           },
-                       
-  
-                         ]
+
    });
 
 // fro swiper
@@ -166,7 +149,7 @@ spaceBetween: 40
   $('.nav-link[href="#about"]').addClass("current-section");
  
   }, {
-  offset: '0%'
+  offset: '25%'
   })
 
   var waypoints = $('#blog').waypoint(function(direction) {
@@ -175,7 +158,7 @@ spaceBetween: 40
   $('.nav-link[href="#blog"]').addClass("current-section");
 
   }, {
-  offset: '0%'
+  offset: '25%'
   })
 
   // for wow
